@@ -1,12 +1,12 @@
 # Overview
 
-DeFi (Decentralized Finance) is a steadily developing it's value into a new asset class. It has almost become a race to develop a coin with great security or anonimity while maintaining that high trasactions per second (TPS) speed. This new industry also provides for new investors to receive that  "get rich quick" possibility. Due to this opportunity, it is time to use unsupervised machine learning analyzing [crypto_data.csv](https://github.com/nvuono625/Cryptocurrencies/blob/main/Resources/crypto_data.csv) and build a classification system for this new investment. The goal is to process data, cluster, reduce dimensions and reduce principal components using PCA to build visualizations that classify each cryptocurrency.
+Decentralized Finance (DeFi) is steadily developing it's value into a new asset class. In the new age of cryptocurrencies it has almost become a race to develop a coin with great security or anonymity while maintaining that high trasaction per second (TPS) speed. This new industry also provides for new investors to receive that  "get rich quick" possibility. Due to this opportunity, it is time to use unsupervised machine learning, analyzing [crypto_data.csv](https://github.com/nvuono625/Cryptocurrencies/blob/main/Resources/crypto_data.csv) and build a classification system for this new investment. The goal is to process data, cluster, reduce dimensions and reduce principal components using PCA to build visualizations that rank each cryptocurrency into a specific class.
 
 _____
 
 # Results
 ## Preprocessing the Data for PCA
-After loading the [crypto_data.csv](https://github.com/nvuono625/Cryptocurrencies/blob/main/Resources/crypto_data.csv) dataset, the cryptocurrencies that are not being traded were dropped from the dataset and in doing so allows us to remove the "IsTrading" column knowing that dataset now only contains tradable cryptocurrencies. Next, NaN's in the TotalCoinsMined column were dropped and the respective coins were excluded as well.
+After loading the [crypto_data.csv](https://github.com/nvuono625/Cryptocurrencies/blob/main/Resources/crypto_data.csv) dataset, the cryptocurrencies that are not being traded were dropped from the dataset. In doing so it allows us to remove the "IsTrading" column because we know that the dataset now only contains tradable cryptocurrencies. Next, NaN's in the TotalCoinsMined column were dropped and the respective coins were excluded as well.
 
 ![/Resources/crypto_df.png](/Resources/crypto_df.png)
 
